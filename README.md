@@ -2,7 +2,6 @@
 # Customer Churn Prediction
 
 ##  *A machine learning model  for Customer Churn Prediction*
-- [Live Demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
 
 
 ![Logo](https://drive.google.com/uc?id=1dvH9bOF-WCEOoIoVLOh67ob388tkzbcW&export=download)
@@ -23,6 +22,21 @@ I'm a full stack developer experienced in deploying artificial intelligence powe
 - [@Tapiwa chamboko](https://github.com/tapiwachamb)
 
 
+## Demo
+
+**Live demo**
+
+[Click here for Live demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
+
+
+![Logo](https://drive.google.com/uc?id=1GeIpGMoi8vzX3_PpzWFhWGaS-Mil78Ub&export=download)
+## Acknowledgements
+
+ - [Moez Ali](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac)
+ - Predict Customer Churn (the right way) using PyCaret
+ 
+
+
 ## Installation
 
 Install required packages 
@@ -39,13 +53,6 @@ Install required packages
   pip install streamlit-lottie
 ```
     
-## Acknowledgements
-
- - [Moez Ali](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac)
- - Predict Customer Churn (the right way) using PyCaret
- 
-
-
 ## Datasets
 - [Download Customer Churn Datasets here](https://www.kaggle.com/blastchar/telco-customer-churn)
 ## Data
@@ -95,7 +102,7 @@ To deploy this project we used streamlit to create Web App
 ```
 
 
-## Usage/Examples
+## Custom Metrics
 - custom fuction in pycaret
 
 ```bash
