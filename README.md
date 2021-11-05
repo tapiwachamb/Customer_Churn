@@ -27,9 +27,10 @@ I'm a full stack developer experienced in deploying artificial intelligence powe
 **Live demo**
 
 [Click here for Live demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
+## Screenshots
 
+![App Screenshot](https://drive.google.com/uc?id=1XNaUTR4Um9HYLWVKGAbs1uSS10ktSnu-&export=download)
 
-![APP SCREENSHOT](https://drive.google.com/uc?id=1GeIpGMoi8vzX3_PpzWFhWGaS-Mil78Ub&export=download)
 
 ## Acknowledgements
 
