@@ -3,7 +3,7 @@
 
 ##  *A machine learning model  for Customer Churn Prediction*
 
-
+![App Screenshot](https://drive.google.com/uc?id=1XNaUTR4Um9HYLWVKGAbs1uSS10ktSnu-&export=download)
 
 
 ## TAPIWA CHAMBOKO
@@ -26,9 +26,6 @@ I'm a full stack developer experienced in deploying artificial intelligence powe
 **Live demo**
 
 [Click here for Live demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
-## Screenshots
-
-![App Screenshot](https://drive.google.com/uc?id=1XNaUTR4Um9HYLWVKGAbs1uSS10ktSnu-&export=download)
 
 
 ## Acknowledgements
