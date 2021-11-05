@@ -4,7 +4,6 @@
 ##  *A machine learning model  for Customer Churn Prediction*
 
 
-![Logo](https://drive.google.com/uc?id=1dvH9bOF-WCEOoIoVLOh67ob388tkzbcW&export=download)
 
 
 ## TAPIWA CHAMBOKO
