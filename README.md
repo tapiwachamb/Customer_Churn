@@ -29,7 +29,8 @@ I'm a full stack developer experienced in deploying artificial intelligence powe
 [Click here for Live demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
 
 
-![Logo](https://drive.google.com/uc?id=1GeIpGMoi8vzX3_PpzWFhWGaS-Mil78Ub&export=download)
+![APP SCREENSHOT](https://drive.google.com/uc?id=1GeIpGMoi8vzX3_PpzWFhWGaS-Mil78Ub&export=download)
+
 ## Acknowledgements
 
  - [Moez Ali](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac)
