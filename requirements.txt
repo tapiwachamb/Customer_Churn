@@ -170,6 +170,7 @@ waitress==2.0.0
 wasabi==0.8.2
 watchdog==2.1.6
 wcwidth
+wheel
 webencodings==0.5.1
 websocket-client==1.2.1
 Werkzeug==2.0.2
