@@ -25,7 +25,7 @@ I'm a full stack developer experienced in deploying artificial intelligence powe
 
 **Live demo**
 
-[Click here for Live demo](https://share.streamlit.io/tapiwachamb/customer_churn/main/app.py)
+[Click here for Live demo](https://ai-customer-churn.streamlit.app/)
 
 
 ## Acknowledgements
