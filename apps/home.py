@@ -16,7 +16,7 @@ import requests
 def app():
     st.title('Home')
     st.markdown("""
-                ## Customer Churn Machine learning App.
+                ## Customer Churn Machine learning App By Tapiwa Chamboko.
                 
 
 
