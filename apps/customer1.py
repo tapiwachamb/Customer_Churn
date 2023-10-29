@@ -1,6 +1,7 @@
 from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
+import numpy as np
 from math import sqrt
 import matplotlib.pyplot as plt
 import plotly.express as px
@@ -15,7 +16,7 @@ def app():
     st.set_option('deprecation.showPyplotGlobalUse', False)
     def predict(model, input_df):
         predictions_df = predict_model(estimator=model, data=input_df)
-        predictions = predictions_df['Label'][0]
+        predictions = predictions_df['prediction_label'][0]
         return predictions
 
    

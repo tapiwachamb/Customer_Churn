@@ -1,6 +1,7 @@
 from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
+import numpy as np
 from math import sqrt
 import matplotlib.pyplot as plt
 import plotly.express as px
@@ -14,7 +15,7 @@ def app():
     st.set_option('deprecation.showPyplotGlobalUse', False)
     def predict(model, input_df):
         predictions_df = predict_model(estimator=model, data=input_df)
-        predictions = predictions_df['Label'][0]
+        predictions = predictions_df['prediction_label'][0]
         return predictions
         
     add_selectbox1 = st.sidebar.selectbox(
@@ -33,7 +34,7 @@ def app():
 
         groupby_column = st.selectbox(
         'What would you like to analyse?',predictions.columns.values.tolist(),)
-        output_columns = 'Label'
+        output_columns = 'prediction_label'
         tapiwa = predictions.groupby(by=[groupby_column], as_index=False)[output_columns].count()
             
         if add_selectbox1 == 'Bar':
@@ -42,8 +43,8 @@ def app():
                 
                 tapiwa,
                 x=groupby_column,
-                y='Label',
-                color='Label',
+                y='prediction_label',
+                color='prediction_label',
                 color_continuous_scale=['red', 'yellow', 'green','blue'],
                 template='plotly_white',
                 title=f'<b>Predictions by {groupby_column}</b>'
@@ -55,8 +56,8 @@ def app():
             fig2 = px.area(
                 tapiwa,
                 x=groupby_column,
-                y='Label',
-                color='Label',
+                y='prediction_label',
+                color='prediction_label',
                 template='plotly_white',
                 title=f'<b>Prodictions by {groupby_column}</b>'
                 )
@@ -69,7 +70,7 @@ def app():
 
         if add_selectbox1 == 'Scatter':
             fig3 = px.scatter(
-                x=predictions["Label"],
+                x=predictions["prediction_label"],
                 y=predictions[groupby_column],
             )
             fig3.update_layout(
@@ -79,7 +80,7 @@ def app():
             st.write(fig3)
 
         if add_selectbox1 == 'Pie':
-            fig4 = px.pie(predictions, values=predictions['Label'], names=predictions[groupby_column])
+            fig4 = px.pie(predictions, values=predictions['prediction_label'], names=predictions[groupby_column])
             st.plotly_chart(fig4)
 
             
