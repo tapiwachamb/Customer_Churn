@@ -132,3 +132,735 @@
 2021-11-05 01:24:36,931:INFO:Preloading libraries
 2021-11-05 01:24:56,963:INFO:Initializing load_model()
 2021-11-05 01:24:56,964:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:08:35,039:INFO:Initializing load_model()
+2021-11-05 22:08:35,044:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:08:43,958:INFO:Initializing load_model()
+2021-11-05 22:08:43,959:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:08:49,687:INFO:Initializing load_model()
+2021-11-05 22:08:49,688:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:08:55,260:INFO:Initializing load_model()
+2021-11-05 22:08:55,260:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:08:56,787:INFO:Initializing load_model()
+2021-11-05 22:08:56,788:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:00,671:INFO:Initializing load_model()
+2021-11-05 22:09:00,672:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:04,733:INFO:Initializing load_model()
+2021-11-05 22:09:04,734:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:06,638:INFO:Initializing load_model()
+2021-11-05 22:09:06,639:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:09,084:INFO:Initializing load_model()
+2021-11-05 22:09:09,085:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:11,850:INFO:Initializing load_model()
+2021-11-05 22:09:11,851:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2021-11-05 22:09:11,941:INFO:Initializing predict_model()
+2021-11-05 22:09:11,942:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['customerID'],
+                                      ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_s...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', AdaBoostClassifier(random_state=162)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-05 22:09:11,946:INFO:Checking exceptions
+2021-11-05 22:09:11,949:INFO:Preloading libraries
+2023-10-28 20:49:29,082:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 20:49:29,082:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 20:49:29,082:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 20:49:29,082:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 20:50:06,592:INFO:Initializing load_model()
+2023-10-28 20:50:06,592:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:06,664:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:12,205:INFO:Initializing load_model()
+2023-10-28 20:50:12,205:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:12,223:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:18,879:INFO:Initializing load_model()
+2023-10-28 20:50:18,879:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:18,901:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:19,524:INFO:Initializing load_model()
+2023-10-28 20:50:19,524:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:19,542:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:20,944:INFO:Initializing load_model()
+2023-10-28 20:50:20,944:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:20,963:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:24,521:INFO:Initializing load_model()
+2023-10-28 20:50:24,522:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:24,542:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:30,767:INFO:Initializing load_model()
+2023-10-28 20:50:30,767:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:30,785:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:32,179:INFO:Initializing load_model()
+2023-10-28 20:50:32,179:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 20:50:32,196:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 20:50:32,331:INFO:Initializing predict_model()
+2023-10-28 20:50:32,331:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000026961C23850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000026961BC50D0>)
+2023-10-28 20:50:32,331:INFO:Checking exceptions
+2023-10-28 20:50:32,331:INFO:Preloading libraries
+2023-10-28 20:50:32,331:INFO:Set up data.
+2023-10-28 20:50:32,343:INFO:Set up index.
+2023-10-28 21:15:09,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:15:09,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:15:09,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:15:09,658:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:15:21,225:INFO:Initializing load_model()
+2023-10-28 21:15:21,225:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:15:21,263:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:15:26,811:INFO:Initializing load_model()
+2023-10-28 21:15:26,811:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:15:26,831:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:15:29,667:INFO:Initializing load_model()
+2023-10-28 21:15:29,668:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:15:29,685:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:15:32,154:INFO:Initializing load_model()
+2023-10-28 21:15:32,155:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:15:32,180:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:15:32,321:INFO:Initializing predict_model()
+2023-10-28 21:15:32,321:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015FE2005910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000015FE20D6310>)
+2023-10-28 21:15:32,321:INFO:Checking exceptions
+2023-10-28 21:15:32,321:INFO:Preloading libraries
+2023-10-28 21:15:32,321:INFO:Set up data.
+2023-10-28 21:15:32,333:INFO:Set up index.
+2023-10-28 21:19:59,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:19:59,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:19:59,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:19:59,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:20:14,319:INFO:Initializing load_model()
+2023-10-28 21:20:14,319:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:20:14,364:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:20:34,028:INFO:Initializing load_model()
+2023-10-28 21:20:34,028:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:20:34,050:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:21:13,837:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:21:13,837:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:21:13,837:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:21:13,837:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:21:14,804:INFO:Initializing load_model()
+2023-10-28 21:21:14,805:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:21:15,075:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:21:21,443:INFO:Initializing load_model()
+2023-10-28 21:21:21,443:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:21:21,470:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:21:25,752:INFO:Initializing load_model()
+2023-10-28 21:21:25,752:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:21:25,770:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:21:30,486:INFO:Initializing load_model()
+2023-10-28 21:21:30,486:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:21:30,513:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:21:31,812:INFO:Initializing predict_model()
+2023-10-28 21:21:31,812:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F2E91FC280>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F2EE04C040>)
+2023-10-28 21:21:31,812:INFO:Checking exceptions
+2023-10-28 21:21:31,812:INFO:Preloading libraries
+2023-10-28 21:21:31,812:INFO:Set up data.
+2023-10-28 21:21:31,829:INFO:Set up index.
+2023-10-28 21:23:18,063:INFO:Initializing load_model()
+2023-10-28 21:23:18,063:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:23:18,087:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:23:22,172:INFO:Initializing load_model()
+2023-10-28 21:23:22,173:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:23:22,194:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:23:23,329:INFO:Initializing predict_model()
+2023-10-28 21:23:23,329:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F2E8CE3880>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F2EE1F1A60>)
+2023-10-28 21:23:23,329:INFO:Checking exceptions
+2023-10-28 21:23:23,329:INFO:Preloading libraries
+2023-10-28 21:23:23,329:INFO:Set up data.
+2023-10-28 21:23:23,337:INFO:Set up index.
+2023-10-28 21:25:52,377:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:25:52,377:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:25:52,377:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:25:52,377:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-28 21:25:53,198:INFO:Initializing load_model()
+2023-10-28 21:25:53,198:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:25:53,227:INFO:Initializing load_model()
+2023-10-28 21:25:53,227:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:25:53,429:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': 'Installed but version unavailable', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:25:53,429:INFO:Transformation Pipeline and Model Successfully Loaded
+2023-10-28 21:25:53,512:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:26:07,151:INFO:Initializing load_model()
+2023-10-28 21:26:07,151:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:07,176:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:26:11,733:INFO:Initializing load_model()
+2023-10-28 21:26:11,733:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:11,754:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2023-10-28 21:26:13,013:INFO:Initializing predict_model()
+2023-10-28 21:26:13,013:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F3E48C9610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F381B5CEE0>)
+2023-10-28 21:26:13,013:INFO:Checking exceptions
+2023-10-28 21:26:13,013:INFO:Preloading libraries
+2023-10-28 21:26:13,013:INFO:Set up data.
+2023-10-28 21:26:13,030:INFO:Set up index.
+2023-10-28 21:26:13,980:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:26:28,457:INFO:Initializing load_model()
+2023-10-28 21:26:28,457:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:28,477:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:26:29,462:INFO:Initializing predict_model()
+2023-10-28 21:26:29,462:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F3825BAFA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F384EFAF70>)
+2023-10-28 21:26:29,462:INFO:Checking exceptions
+2023-10-28 21:26:29,462:INFO:Preloading libraries
+2023-10-28 21:26:29,462:INFO:Set up data.
+2023-10-28 21:26:29,479:INFO:Set up index.
+2023-10-28 21:26:29,763:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:26:32,528:INFO:Initializing load_model()
+2023-10-28 21:26:32,528:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:32,879:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:26:34,371:INFO:Initializing predict_model()
+2023-10-28 21:26:34,371:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F381E66BB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F384F19DC0>)
+2023-10-28 21:26:34,371:INFO:Checking exceptions
+2023-10-28 21:26:34,371:INFO:Preloading libraries
+2023-10-28 21:26:34,371:INFO:Set up data.
+2023-10-28 21:26:34,371:INFO:Set up index.
+2023-10-28 21:26:34,679:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\apps\customer2.py:68: UserWarning:
+
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+
+
+2023-10-28 21:26:35,020:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:26:37,829:INFO:Initializing load_model()
+2023-10-28 21:26:37,829:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:38,330:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:26:39,621:INFO:Initializing predict_model()
+2023-10-28 21:26:39,621:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F381E2CEB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F38582EE50>)
+2023-10-28 21:26:39,621:INFO:Checking exceptions
+2023-10-28 21:26:39,621:INFO:Preloading libraries
+2023-10-28 21:26:39,622:INFO:Set up data.
+2023-10-28 21:26:39,636:INFO:Set up index.
+2023-10-28 21:26:39,913:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:26:44,344:INFO:Initializing load_model()
+2023-10-28 21:26:44,344:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:44,364:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:26:45,430:INFO:Initializing predict_model()
+2023-10-28 21:26:45,430:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F381E2CBE0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F384869AF0>)
+2023-10-28 21:26:45,430:INFO:Checking exceptions
+2023-10-28 21:26:45,430:INFO:Preloading libraries
+2023-10-28 21:26:45,430:INFO:Set up data.
+2023-10-28 21:26:45,446:INFO:Set up index.
+2023-10-28 21:26:45,713:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:26:53,258:INFO:Initializing load_model()
+2023-10-28 21:26:53,258:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:26:53,265:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:26:54,329:INFO:Initializing predict_model()
+2023-10-28 21:26:54,329:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F3825ACA00>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F38582EDC0>)
+2023-10-28 21:26:54,329:INFO:Checking exceptions
+2023-10-28 21:26:54,329:INFO:Preloading libraries
+2023-10-28 21:26:54,329:INFO:Set up data.
+2023-10-28 21:26:54,345:INFO:Set up index.
+2023-10-28 21:26:54,620:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:27:01,964:INFO:Initializing load_model()
+2023-10-28 21:27:01,964:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:27:01,983:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:27:03,030:INFO:Initializing predict_model()
+2023-10-28 21:27:03,030:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F3825E7E80>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F38582EA60>)
+2023-10-28 21:27:03,030:INFO:Checking exceptions
+2023-10-28 21:27:03,030:INFO:Preloading libraries
+2023-10-28 21:27:03,030:INFO:Set up data.
+2023-10-28 21:27:03,047:INFO:Set up index.
+2023-10-28 21:27:03,309:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
+2023-10-28 21:27:11,398:INFO:Initializing load_model()
+2023-10-28 21:27:11,398:INFO:load_model(model_name=Cusomer_Churn, platform=None, authentication=None, verbose=True)
+2023-10-28 21:27:11,416:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pycaret\internal\pipeline.py:139: UserWarning:
+
+Version mismatch:
+current: {'deps_info': {'pip': '22.3.1', 'setuptools': '67.0.0', 'pycaret': '3.1.0', 'IPython': '8.16.1', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.8.0', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.13', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0', 'IPython': '8.12.3', 'ipywidgets': '8.1.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.1', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.1.0', 'numba': '0.58.1', 'requests': '2.31.0', 'matplotlib': '3.7.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.18.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.6', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.4.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.8.18', 'machine': 'AMD64'}}
+
+
+2023-10-28 21:27:12,497:INFO:Initializing predict_model()
+2023-10-28 21:27:12,497:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F3E4846610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             'PhoneSe...
+                                             'StreamingTV', 'StreamingMovies',
+                                             'Contract', 'PaymentMethod'],
+                                    transformer=OneHotEncoder(cols=['MultipleLines',
+                                                                    'InternetService',
+                                                                    'OnlineSecurity',
+                                                                    'OnlineBackup',
+                                                                    'DeviceProtection',
+                                                                    'TechSupport',
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingClassifier(random_state=162))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F38582E5E0>)
+2023-10-28 21:27:12,497:INFO:Checking exceptions
+2023-10-28 21:27:12,497:INFO:Preloading libraries
+2023-10-28 21:27:12,497:INFO:Set up data.
+2023-10-28 21:27:12,515:INFO:Set up index.
+2023-10-28 21:27:12,771:WARNING:C:\Users\chamboko\Desktop\2\Customer_churn\env\lib\site-packages\pandas\util\_decorators.py:211: FutureWarning:
+
+the 'encoding' keyword is deprecated and will be removed in a future version. Please take steps to stop the use of 'encoding'
+
+
