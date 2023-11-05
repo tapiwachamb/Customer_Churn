@@ -100,7 +100,7 @@ To deploy this project we used streamlit to create Web App
 ```
 
 ## Business Logic (Solving the problem)
-https://github.com/tapiwachamb/Customer_Churn/blob/main/Logic.png
+![App Screenshot](https://github.com/tapiwachamb/Customer_Churn/blob/main/Logic.png)
 ## Custom Metrics
 - custom fuction in pycaret
 
