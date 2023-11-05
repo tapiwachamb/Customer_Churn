@@ -100,6 +100,9 @@ To deploy this project we used streamlit to create Web App
 ```
 
 ## Business Logic (Solving the problem)
+In a churn model, often the reward of true positives is way different than the cost of false positives. Let’s use the following assumptions:
+$1,000 voucher will be offered to all the customers identified as churn (True Positive + False Positive);
+If we are able to stop the churn, we will gain $5,000 in customer lifetime value.
 ![App Screenshot](https://github.com/tapiwachamb/Customer_Churn/blob/main/Logic.png)
 ## Custom Metrics
 - custom fuction in pycaret
