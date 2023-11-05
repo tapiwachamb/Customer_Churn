@@ -74,7 +74,7 @@ def app():
     if st.button("Predict"):
         output = predict(model=model, input_df=input_df)
             
-        if output==1:
+        if output=="Yes":
             output = 'Arlet ! This customer has a high chance of leaving the business.' + '  ' +'The predicted outcome is :'+' '+str(output)
             action="Contact Risk !"
             st.error(output + '  ' + action)
