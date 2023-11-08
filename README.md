@@ -1,6 +1,6 @@
 
 # Personalized Retention Strategies with Predictive Insights
-
+##  *A machine learning model  for Customer Churn Prediction*
 ## Problem: 
 One-size-fits-all retention strategies often fail to address the unique needs and motivations of individual customers, leading to ineffective churn reduction efforts.
 
@@ -15,7 +15,7 @@ The Early Churn Prediction App not only identifies customers at high risk of chu
 
 - A 10% improvement in customer lifetime value, as retained customers contribute more revenue to the company over time.
   
-##  *A machine learning model  for Customer Churn Prediction*
+##  *Demo*
 
 ![App Screenshot](https://drive.google.com/uc?id=1XNaUTR4Um9HYLWVKGAbs1uSS10ktSnu-&export=download)
 
