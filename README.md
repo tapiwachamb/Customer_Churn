@@ -1,6 +1,6 @@
 
 # Personalized Retention Strategies with Predictive Insights
-##  *A machine learning model  for Customer Churn Prediction*
+
 ## Problem: 
 One-size-fits-all retention strategies often fail to address the unique needs and motivations of individual customers, leading to ineffective churn reduction efforts.
 
